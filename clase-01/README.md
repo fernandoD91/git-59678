@@ -76,3 +76,5 @@ Preserva y le dice a git que lo prepare para sacarle un a foto.
 
     git diff clase-01/README.md
 
+## Para ignorar un archivo en particular
+Creo el archivo .gitignore. Puede estar en la raíz o no.
