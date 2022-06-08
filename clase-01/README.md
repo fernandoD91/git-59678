@@ -30,6 +30,18 @@
 
     mkdir css js img; touch index.html css/styles.css js/main.js
 
+
+## Configurar GIT
+
+Quedar siempre configura para todos los proyectos
+git config --global user.name "Maximiliano Príncipe"
+git config --global user.email "mlapeducacionit@gmail.com"
+
+Creas un repo de git, vas configurar local para este repo.
+
+git config --local user.name "Maximiliano Príncipe"
+git config --local user.email "mlapeducacionit@gmail.com"
+
 ## Inicializar proyecto git (Crea un repositorio de git)
 
 Entonces, es un repositorio de git por proyecto. Una carpeta o directorio.
@@ -50,3 +62,17 @@ Es el area de trabajo. El area sucia. Donde interactatuo con mis archivos y voy 
 
 ### Staging Area
 Preserva y le dice a git que lo prepare para sacarle un a foto.
+
+### Local Repo 
+
+
+## Para ver la información de configuración
+
+    git config --global -l # Salgo con q del comando (quit)
+    git config --global --get-regexp user
+    git config --global --get-regexp email
+
+## Ver la diferencia entre lo que tengo WD y el Repo local
+
+    git diff clase-01/README.md
+
