@@ -78,3 +78,8 @@ Preserva y le dice a git que lo prepare para sacarle un a foto.
 
 ## Para ignorar un archivo en particular
 Creo el archivo .gitignore. Puede estar en la raíz o no.
+
+## Para mostrar los commits 
+
+    git log
+    git log --oneline
