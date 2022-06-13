@@ -49,3 +49,18 @@ Otra forma es con git status
     git status
     git branch
 
+## Listar ramas remotas
+
+    git branch -r
+
+## Eliminar ramas
+
+ALT + 96 => backtick
+
+```sh
+git branch -d #Borrar la rama si en algún momento fue fusionada (Merge)
+```
+
+```sh
+git branch -D #Borro la rama en el caso de que no me deje porque no fue fusionada o mergeada
+```
