@@ -21,6 +21,8 @@ https://github.com/abhisheknaiidu/awesome-github-profile-readme
 
 **MODIFIED** => Archivos que se encuentran en el respositorio pero difieren con los que sen ecuentran actualmente en el directorio de trabajo (Working Directory)
 
+![status_archivos](img/3rFpi.png)
+
 
 # Git amend
 Agregar algo que me olvide en el último commit 
