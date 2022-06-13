@@ -73,3 +73,11 @@ Ejemplo:
 
     git push origin dev
 
+## Merge
+
+**IMPORTANTE**: Tengo que estar en el rama que va a recibir los cambios. 
+Por ejemplo:
+
+Si quiero traerme a master lo que tengo en dev, tengo que estar en master
+
+    git merge dev
