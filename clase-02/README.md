@@ -20,3 +20,10 @@ https://github.com/abhisheknaiidu/awesome-github-profile-readme
 **UNMODIFIED** => Archivos que se encuentran en el respositorio y que no fueron modificados
 
 **MODIFIED** => Archivos que se encuentran en el respositorio pero difieren con los que sen ecuentran actualmente en el directorio de trabajo (Working Directory)
+
+
+# Git amend
+Agregar algo que me olvide en el último commit 
+
+    git add . o <archivo>
+    git commit --amend
