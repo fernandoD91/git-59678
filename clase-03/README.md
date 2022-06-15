@@ -22,7 +22,9 @@
 
     git merge <rama-que-me-quiero-traer>
 
+### ****************
 ### TIPOS DE MERGE
+### ****************
 
 Fast-Forward: Fusión automatica de las ramas.
 Recursiva - Unión automática (No hay colisiones de cambios)
