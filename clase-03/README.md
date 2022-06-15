@@ -40,3 +40,10 @@
 
     git checkout -b <nombre-rama>
 
+# GIT GIST
+Para compartir snippets de código y documentar
+
+https://gist.github.com/
+
+
+
