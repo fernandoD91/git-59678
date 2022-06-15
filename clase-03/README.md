@@ -1,6 +1,6 @@
-# Clase 03
+# Clase 03 - 15-06-2022
 
-## Repaso ramas
+## REPASO RAMAS Y MERGE
 
 ### Crear un rama
 
@@ -22,9 +22,7 @@
 
     git merge <rama-que-me-quiero-traer>
 
-### ****************
 ### TIPOS DE MERGE
-### ****************
 
 * Fast-Forward: Fusión automatica de las ramas.
 * Recursiva - Unión automática (No hay colisiones de cambios)
@@ -33,3 +31,12 @@
 ## Detener el merge
 
     git merge --abort
+
+## Para comparar 2 ramas
+
+    git diff <rama-1> <rama-2>
+
+## Si quiero crear una rama y moverme a esa rama
+
+    git checkout -b <nombre-rama>
+
