@@ -45,5 +45,16 @@ Para compartir snippets de código y documentar
 
 https://gist.github.com/
 
+## Cambiar editor por defecto.
 
+    git config --global core.editor "nano"
+    git config --global core.editor "code --wait"
 
+## Si quiero recuperar información del remoto
+Es traerme solamente la metadata de lo que ocurrió en el remoto
+
+    git fetch 
+
+## Para traerme las modificación
+
+    git pull
