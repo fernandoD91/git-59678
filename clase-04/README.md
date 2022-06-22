@@ -73,3 +73,20 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 ### Para crear una rama a partir de un stash
 
     git stash branch <nombre_rama>
+
+# Trabajar con Fork
+
+1. Fork
+2. Clone
+3. Configuro el remoto del repositorio original
+
+    git remote add upstream <url-remoto>
+
+4. Actualizar si fuera necesario mi fork con el repositorio original
+
+    git pull upstream <rama>
+
+5. Tengo el local y para actualizar mi fork remoto
+
+    git push origin main
+
