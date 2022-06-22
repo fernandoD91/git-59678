@@ -44,3 +44,13 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 # Agregar al escenario y sacar foto.
 
     git commit -am "Mensaje"
+
+# GIT STASH
+
+### Creo un stash
+
+    git stash
+
+### Muestro la cajita de stashes 
+
+    git stash list
