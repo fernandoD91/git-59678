@@ -90,3 +90,24 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 
     git push origin main
 
+# GIT RESET
+
+## Tipos de reset
+
+* Soft. No destructivo.
+
+    git reset --soft <hash>
+
+* Mixed. No destructivo. Saca todo del staged y los cambios quedan listos para el commit
+
+    git reset <hash>
+    git reset --mixed <hash>
+
+* Hard. Destructivo. Peligroso, mucho cuidado.
+
+    git reset --hard <hash>
+
+# GIT REFLOG
+Un log de las referencias de todo lo que ha sucedido en el repositorio en orden cronologico.
+
+    git reflog
