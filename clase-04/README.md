@@ -54,3 +54,22 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 ### Muestro la cajita de stashes 
 
     git stash list
+
+### Aplicar último stash
+
+    git stash pop
+    git stash apply
+
+### Aplico un stash en particular
+
+    git stash apply stash@{0}
+    git stash apply stash@{1}
+
+### Borrar un stash
+
+    git stash drop stash@{0}
+    git stash drop stash@{1}
+
+### Para crear una rama a partir de un stash
+
+    git stash branch <nombre_rama>
