@@ -98,3 +98,4 @@ Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a t
 Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y resolviendolas.
 
 # 1 línea, un commit  en master
+# 2 otra línea, otra commit en master
