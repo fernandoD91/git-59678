@@ -110,3 +110,24 @@ Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y 
 ## Como utilizo. Lo mismo que el merge.
 Tengo estar en la rama que quiero recibir los cambios. O sea si quiero traerme los cambios de **r-rebase** en **master**. Tengo que estar sobre la rama **master**.
 
+### Ejecutando rebase
+Estando en la rama r-rebase. Hago git rebase master y sigo las intrucciones. Que sería arreglar los conflicto confirmar (git add .; git commit -m "mensaje") y luego git rebase --continue 
+
+```sh
+git rebase master
+```
+
+### Para avanzar en el proceso de rebase
+
+```sh
+git rebase --continue
+```
+
+### Para avanzar en el proceso de rebase
+
+```sh
+git rebase --abort
+```
+
+## REBASE INTERACTIVO
+
