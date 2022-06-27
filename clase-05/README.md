@@ -96,6 +96,19 @@ Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a t
 
 # GITHUB Projects
 Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y resolviendolas.
+<<<<<<< HEAD
 
 # 1 línea, un commit  en master
 # 2 otra línea, otra commit en master
+=======
+# GIT REBASE
+
+## ¿Para qué sirve el rebase?
+
+* Ordenar commits
+* Corregir mensajes de los commits (Siempre y cuando no esten subidos al remoto)
+* Unir commits
+* Separar commits
+
+
+>>>>>>> 6bdfe93 (Me trabaje los cambios que estaban en master)
