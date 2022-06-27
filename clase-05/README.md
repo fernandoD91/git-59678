@@ -96,3 +96,5 @@ Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a t
 
 # GITHUB Projects
 Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y resolviendolas.
+
+# 1 línea, un commit  en master
