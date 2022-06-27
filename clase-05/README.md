@@ -93,3 +93,6 @@ git reset --hard <hash>
 
 # GITHUB Issues
 Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a tener su código.
+
+# GITHUB Projects
+Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y resolviendolas.
