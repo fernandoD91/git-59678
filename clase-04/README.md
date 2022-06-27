@@ -80,15 +80,21 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 2. Clone
 3. Configuro el remoto del repositorio original
 
-    git remote add upstream <url-remoto>
+```sh
+git remote add upstream <url-remoto>
+```
 
 4. Actualizar si fuera necesario mi fork con el repositorio original
 
-    git pull upstream <rama>
+```sh
+git pull upstream <rama>
+```
 
 5. Tengo el local y para actualizar mi fork remoto
 
-    git push origin main
+```sh
+git push origin main
+```
 
 # GIT RESET
 
@@ -96,21 +102,28 @@ Si no le coloco el HASH me lo va a poner en el último commit de la rama actual.
 
 * Soft. No destructivo.
 
-    git reset --soft <hash>
+```sh
+git reset --soft <hash>
+```
 
 * Mixed. No destructivo. Saca todo del staged y los cambios quedan listos para el commit
 
-    git reset <hash>
-    git reset --mixed <hash>
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
 
 * Hard. Destructivo. Peligroso, mucho cuidado.
 
-    git reset --hard <hash>
-
+```sh
+git reset --hard <hash>
+```
 # GIT REFLOG
 Un log de las referencias de todo lo que ha sucedido en el repositorio en orden cronologico.
 
-    git reflog
+```sh
+git reflog
+```
 
 # GIT ALIAS
 
