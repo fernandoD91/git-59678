@@ -90,3 +90,6 @@ git reset --mixed <hash>
 ```sh
 git reset --hard <hash>
 ```
+
+# GITHUB Issues
+Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a tener su código.
