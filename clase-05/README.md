@@ -113,3 +113,4 @@ Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y 
 ## Como utilizo. Lo mismo que el merge.
 Tengo estar en la rama que quiero recibir los cambios. O sea si quiero traerme los cambios de **r-rebase** en **master**. Tengo que estar sobre la rama **master**.
 
+1. Una línea un commit
