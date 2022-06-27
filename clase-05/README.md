@@ -136,3 +136,21 @@ git rebase -i <la-cantidad-hash-que-quiero-intervenir>
 Si quiero traerme 4 commit tengo que poner lo siguiente
 
 git rebase HEAD~4
+
+## Bisect
+
+Arranco 
+
+git bisect start
+
+git bisect good <commit-que-considero-funcionando>
+
+Basado en la prueba de mi codigo
+
+git bisect bad
+
+git bisect good
+
+## Discord
+
+https://discord.gg/ajRKCU7s
