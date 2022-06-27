@@ -96,11 +96,10 @@ Puedo crear y avisar al dueño del repositorio de problemas que puede llegar a t
 
 # GITHUB Projects
 Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y resolviendolas.
-<<<<<<< HEAD
 
 # 1 línea, un commit  en master
 # 2 otra línea, otra commit en master
-=======
+
 # GIT REBASE
 
 ## ¿Para qué sirve el rebase?
@@ -111,4 +110,6 @@ Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y 
 * Separar commits
 
 
->>>>>>> 6bdfe93 (Me trabaje los cambios que estaban en master)
+## Como utilizo. Lo mismo que el merge.
+Tengo estar en la rama que quiero recibir los cambios. O sea si quiero traerme los cambios de **r-rebase** en **master**. Tengo que estar sobre la rama **master**.
+
