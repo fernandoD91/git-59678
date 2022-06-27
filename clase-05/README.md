@@ -136,3 +136,6 @@ git rebase -i <la-cantidad-hash-que-quiero-intervenir>
 Si quiero traerme 4 commit tengo que poner lo siguiente
 
 git rebase HEAD~4
+
+1. hola
+2. hola2
