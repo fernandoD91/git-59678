@@ -114,3 +114,4 @@ Puedo crear un kanban y usar la metología Scrum para ir colocando las tareas y 
 Tengo estar en la rama que quiero recibir los cambios. O sea si quiero traerme los cambios de **r-rebase** en **master**. Tengo que estar sobre la rama **master**.
 
 1. Una línea un commit
+2. Otra línea, otro commit
