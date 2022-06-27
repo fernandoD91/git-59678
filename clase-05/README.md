@@ -67,3 +67,26 @@ let variable = "HOLA"
 4. Agrego otra línea de código
 5. Agrego una más
 6. Terminé la funcionalidad
+
+# GIT RESET
+
+## Tipos de reset
+
+* Soft. Saca todo del commit y lo deja en el area de staged (Escenario) listo para ser commiteado. No destructivo.
+
+```sh
+git reset --soft <hash> 
+```
+
+* Mixed. No destructivo. Saca todo del commit, no pasa por staged (Escendario) y deja los cambios listos Working directory para un nuevo commit
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+* Hard. Destructivo. Saca commit y borra los archivos o carpetas que estuvieran en los commits. **Peligroso, mucho cuidado.**
+
+```sh
+git reset --hard <hash>
+```
