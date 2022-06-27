@@ -58,3 +58,12 @@ let variable = "HOLA"
 - [x] Write the press release
 - [x] Update the website
 - [ ] Contact the media
+
+### Ejemplo Git RESET
+
+1. Agrego un parte de código
+2. Agrego otra línea de código
+3. Agrego una línea más.
+4. Agrego otra línea de código
+5. Agrego una más
+6. Terminé la funcionalidad
